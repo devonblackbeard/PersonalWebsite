@@ -65,6 +65,7 @@ h5 {
 
 h6 {
     font-size: 16px;
+    margin: 18px;
 }
 
 
@@ -278,7 +279,7 @@ ul {
 }
 
 .expertise-heading {
-    margin-top: 185px;
+    margin-top: 165px;
 }
 
 
@@ -303,7 +304,7 @@ ul {
     padding-bottom: 50px;
 }
 
-.post{
+.post {
     margin-top: 60px;
 }
 
@@ -311,34 +312,27 @@ ul {
     display: block;
     width: 500px;
     height: 300px;
-    object-fit: cover;
 }
 
 .thumbnail-material-bal {
-    /* display: block; */
     width: 900px;
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 .thumbnail-osr {
     display: block;
-    /* height: 300px; */
     width: 400px;
-    object-fit: cover;
 }
-
 
 .chat {
     display: block;
     width: 1197px;
     height: 450px;
-    
 }
 
 .post-title {
     color: black;
     margin-left: 10px;
+    margin-bottom: 40px;
     height: 3px;
 }
 
@@ -355,12 +349,10 @@ ul {
     width: 500px;
     padding-top: 1px;
     border-radius: 10px;
-
 }
 
 .post-preview-material-bal {
     background-color: #fff;
-    margin-top: 3px;
     width: 500px;
     padding-top: 1px;
     border-radius: 10px;
@@ -368,8 +360,8 @@ ul {
 
 
 .post-preview-chat {
-    background-color: #fff;
-    padding-top: 15px;
+    background-color: #fff;    
+    padding-top: 1px;
     width: 1000px;
     margin-left: 3px;
     border-radius: 10px;
@@ -378,6 +370,10 @@ ul {
 .post-material-bal {
     margin-top: 60px;
     margin-left: 110px;
+}
+
+img {
+    border-radius: 4px;
 }
 
 #contact-form {
