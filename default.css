@@ -275,13 +275,12 @@ ul {
 .skills-list {
     background-color: var(--previewShadow);
     display: flex;
-    width: 900px;
+    width: 798px;
 }
 
 .expertise-heading {
     margin-top: 165px;
 }
-
 
 .about-wrapper {
     display: grid;
@@ -358,10 +357,18 @@ ul {
     border-radius: 10px;
 }
 
-
 .post-preview-chat {
     background-color: #fff;    
     padding-top: 1px;
+    margin-top: 3px;
+    width: 1000px;
+    margin-left: 3px;
+    border-radius: 10px;
+}
+
+.fortbalance-preview {
+    background-color: #fff;    
+    padding-top: 1px;    
     width: 1000px;
     margin-left: 3px;
     border-radius: 10px;
