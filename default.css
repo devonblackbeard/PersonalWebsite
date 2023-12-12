@@ -76,7 +76,7 @@ ul {
 .s1 {
     background-color: var(--mainColor);
     border-bottom: 1px solid var(--borderColor);
-    overflow: auto;
+    overflow: hidden;
 }
 
 .s2 {
@@ -307,12 +307,6 @@ ul {
     margin-top: 60px;
 }
 
-.thumbnail {
-    display: block;
-    width: 500px;
-    height: 300px;
-}
-
 .thumbnail-material-bal {
     width: 900px;
 }
@@ -322,10 +316,9 @@ ul {
     width: 400px;
 }
 
-.chat {
-    display: block;
-    width: 1197px;
-    height: 450px;
+.large-image {
+    max-width: 1000px;
+    height: auto;
 }
 
 .post-title {
@@ -345,7 +338,7 @@ ul {
 .post-preview {
     background-color: #fff;
     margin-top: 3px;
-    width: 500px;
+    width: 400px;
     padding-top: 1px;
     border-radius: 10px;
 }
